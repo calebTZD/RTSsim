@@ -1,0 +1,252 @@
+{
+    "name": "Default",
+    "status": "new",
+    "world": {
+            "days": 5,        
+            "statValues": {},
+            "numVillages": 5,
+            "distanceBetweenVillages": 15,
+            "maxVillagersPerVillage": 99,
+            "startingVillagers": ["Farmer", "Lumberjack", "Scout"],
+            "maxBuildingsPerVillage": 10
+    },
+    "villages": [{
+                "name": "Default",
+                "priorities": {
+                    "Food": 10,
+                    "Wood": 10,
+                    "Stone": 10,
+                    "Ore": 10,
+                    "Gold": 10,
+                    "attack": 10,
+                    "defense": 10,
+                    "Research": 10,
+                    "Exploring": 10,
+                    "ProjectX": 10
+                }
+    }],
+    "villagers":{
+        "Farmer": {
+                "speed": 3,
+                "maxHealth": 50,
+                "carryCapacity": 5,
+                "attack": 3,
+                "defense": 3,
+                "productionSpeed": 3,
+                "spawnTime": 2,
+                "enhancemntCost": 300,
+                "spawnCost": {
+                    "Food": 50
+                }
+        },
+        "Lumberjack": {
+                "speed": 3,
+                "maxHealth": 50,
+                "carryCapacity": 5,
+                "attack": 3,
+                "defense": 3,
+                "productionSpeed": 3,
+                "spawnTime": 2,
+                "enhancemntCost": 300,
+                "spawnCost": {
+                    "Food": 50
+                }
+        },
+        "Stonemason": {
+                "speed": 3,
+                "maxHealth": 50,
+                "carryCapacity": 5,
+                "attack": 3,
+                "defense": 3,
+                "productionSpeed": 3,
+                "spawnTime": 2,
+                "enhancemntCost": 300,
+                "spawnCost": {
+                    "Food": 50,
+                    "Wood": 100
+                }
+        },
+        "Miner": {
+                "speed": 3,
+                "maxHealth": 50,
+                "carryCapacity": 5,
+                "attack": 3,
+                "defense": 3,
+                "productionSpeed": 3,
+                "spawnTime": 2,
+                "enhancemntCost": 300,
+                "spawnCost": {
+                    "Food": 50,
+                    "Wood": 100
+                }
+        },
+        
+        "Warrior": {
+                "speed": 3,
+                "maxHealth": 50,
+                "carryCapacity": 5,
+                "attack": 3,
+                "defense": 3,
+                "productionSpeed": 3,
+                "spawnTime": 2,
+                "enhancemntCost": 300,
+                "spawnCost": {
+                    "Food": 50,
+                    "Ore": 10
+                }
+        },
+        "Guard": {
+                "speed": 3,
+                "maxHealth": 50,
+                "carryCapacity": 5,
+                "attack": 3,
+                "defense": 3,
+                "productionSpeed": 3,
+                "spawnTime": 2,
+                "enhancemntCost": 300,
+                "spawnCost": {
+                    "Food": 50,
+                    "Ore": 10
+                }
+        },
+        "DrX": {
+                "speed": 3,
+                "maxHealth": 50,
+                "carryCapacity": 5,
+                "attack": 3,
+                "defense": 3,
+                "productionSpeed": 3,
+                "spawnTime": 2,
+                "enhancemntCost": 300,
+                "spawnCost": {
+                    "Food": 50,
+                    "Gold": 50
+                }
+        },
+        "Merchant": {
+                "speed": 3,
+                "maxHealth": 50,
+                "carryCapacity": 5,
+                "attack": 3,
+                "defense": 3,
+                "productionSpeed": 3,
+                "spawnTime": 2,
+                "enhancemntCost": 300,
+                "spawnCost": {
+                    "Food": 50,
+                    "wood": 100
+                }
+        },
+        "Researcher": {
+                "speed": 3,
+                "maxHealth": 50,
+                "carryCapacity": 5,
+                "attack": 3,
+                "defense": 3,
+                "productionSpeed": 3,
+                "spawnTime": 2,
+                "enhancemntCost": 300,
+                "spawnCost": {
+                    "Food": 50,
+                    "Gold": 50
+                }
+        },
+        "Scout": {
+                "speed": 3,
+                "maxHealth": 50,
+                "carryCapacity": 5,
+                "attack": 3,
+                "defense": 3,
+                "productionSpeed": 3,
+                "spawnTime": 2,
+                "enhancemntCost": 300,
+                "spawnCost": {
+                    "Food": 50
+                }
+        }
+    },
+    "locations": {
+        "Village": {
+                "numPerVillage": 1,
+                "aveDistance": 0,
+                "enhancemntCost": 500
+        },
+        "Grassland": {
+                "numPerVillage": 3,
+                "aveDistance": 1,
+                "enhancemntCost": 300
+        },
+        "Forest": {
+                "numPerVillage": 3,
+                "aveDistance": 1,
+                "enhancemntCost": 300
+        },
+        "StoneDeposit": {
+                "numPerVillage": 3,
+                "aveDistance": 1,
+                "enhancemntCost": 300
+        },
+        "OreDeposit": {
+                "numPerVillage": 3,
+                "aveDistance": 1,
+                "enhancemntCost": 300
+        }
+    },
+    "buildings": {
+        "Townhall":{
+                "maxHealth": 100,
+                "buildTime": 24,
+                "resourceAmount": 2000,
+                "enhancemntCost": 300
+        },
+        "Farm":{
+                "maxHealth": 100,
+                "buildTime": 24,
+                "resourceAmount": 2000,
+                "enhancemntCost": 300
+        },
+        "LoggingCamp":{
+                "maxHealth": 100,
+                "buildTime": 24,
+                "resourceAmount": 2000,
+                "enhancemntCost": 300
+        },
+        "Mine":{
+                "maxHealth": 100,
+                "buildTime": 24,
+                "resourceAmount": 2000,
+                "enhancemntCost": 300
+        },
+        "Quarry":{
+                "maxHealth": 100,
+                "buildTime": 24,
+                "resourceAmount": 2000,
+                "enhancemntCost": 300
+        },        
+        "Market":{
+                "maxHealth": 100,
+                "buildTime": 24,
+                "resourceAmount": 2000,
+                "enhancemntCost": 300
+        },  
+        "Library":{
+                "maxHealth": 100,
+                "buildTime": 24,
+                "resourceAmount": 2000,
+                "enhancemntCost": 300
+        }, 
+        "Barracks":{
+                "maxHealth": 100,
+                "buildTime": 24,
+                "resourceAmount": 2000,
+                "enhancemntCost": 300
+        }, 
+        "BuildingX":{
+                "maxHealth": 100,
+                "buildTime": 24,
+                "resourceAmount": 2000,
+                "enhancemntCost": 300
+        }
+    }
+}
+
